@@ -135,7 +135,9 @@ also, use it to find the piece that has specific datafile by its file#.
 
 Usage:
 @ cat_bkpset_more_detail <DB Name> <specific backup session key> <piece name> <file#>
+ 
 @ cat_bkpset_more_detail <DB Name> <specific backup session key> <piece name> null
+ 
 @ cat_bkpset_more_detail <DB Name> <specific backup session key> null null 
 @ cat_bkpset_more_detail <DB Name> <specific backup session key> null <file#>
 
