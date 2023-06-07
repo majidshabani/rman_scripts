@@ -1,4 +1,5 @@
 # rman_scripts
+# Please be aware, all the scripts prefixed witn cat_* must be used against recovery catalog database.
 1. cat_db_detail.sql
  
 What is it: 
