@@ -6,6 +6,7 @@ What is it:
 displays the database ID and DATABASE key of the given database name.
 
 Usage:
+
 cat_db_detail.sql <DB Name>
 
 
@@ -18,6 +19,7 @@ Usage:
 cat_db_detail.sql <DB Name>
 
 Usage:
+ 
 cat_bkp_detail.sql <DB Name> <How long duration>
 
 
@@ -28,6 +30,7 @@ It shows the backup set details of controlfile for the given DB name using the v
 SESSION_KEY column of the previous script or by specifying time period. 
  
 Usage:
+ 
 cat_list_ctl_bkps.sql <DB Name> <specific backup session key> null
 OR
 cat_list_ctl_bkps.sql <DB Name> null <How long duration> 
@@ -39,6 +42,7 @@ What is it:
 The script returns no row If the backup piece doesn’t contain spfile.
 
 Usage:
+ 
 cat_list_spfile_bkps.sql <DB Name> <specific backup session key> null
 OR
 cat_list_spfile_bkps.sql <DB Name> null <piece name>
@@ -51,6 +55,7 @@ It shows the archive log in the specified backup using of the value obtained fro
 column of the 'cat_bkp_detail.sql' script or by specifying time period.
 
 Usage:
+ 
 cat_list_ctl_bkps.sql <DB Name> <specific backup session key> null
 OR
 cat_list_ctl_bkps.sql <DB Name> null <piece name>
@@ -63,6 +68,7 @@ What is it:
 shows the number of pieces in the specified backup for specific database.
 
 Usage:
+ 
 cat_piece_count.sql <DB Name> <specific backup session key>
 
 
@@ -74,6 +80,7 @@ shows all the information is required for restore operation including how many f
 pnumber of backup pieces, size of backup pieces, control file names, scn value in archivelog backup and so on so forth.
 
 Usage:
+ 
 cat_bkpset_details.sql <DB Name> <specific backup session key>
 
 
@@ -84,6 +91,7 @@ What is it:
 display the log of RMAN job saved in the catalog db.
 
 Usage:
+ 
 cat_bkp_log.sql <DB key> <specific backup session key>
 
 
@@ -94,6 +102,7 @@ What is it:
 show the backup script saved in the catalog DB of the given databasename.
 
 Usage:
+ 
 cat_db_scp.sql <DB Name>
 
 
@@ -104,6 +113,7 @@ What is it:
 script shows RMAN session and time needed to perform its operation.
 
 Usage:
+ 
 rman_sess.sql
 
 
@@ -114,6 +124,7 @@ What is it:
 shows how much of data restored by all channels. 
 
 Usage:
+ 
 @ rman_tio.sql
 
 
@@ -124,6 +135,7 @@ What is it:
 shows how much of data restored by each channel. 
 
 Usage:
+ 
 @ rman_sess_io.sql
 
 
@@ -134,6 +146,7 @@ its shows what is in the specific backup piece
 also, use it to find the piece that has specific datafile by its file#.
 
 Usage:
+ 
 @ cat_bkpset_more_detail <DB Name> <specific backup session key> <piece name> <file#>
  
 @ cat_bkpset_more_detail <DB Name> <specific backup session key> <piece name> null
