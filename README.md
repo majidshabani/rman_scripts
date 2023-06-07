@@ -139,5 +139,7 @@ Usage:
 @ cat_bkpset_more_detail <DB Name> <specific backup session key> <piece name> null
  
 @ cat_bkpset_more_detail <DB Name> <specific backup session key> null null 
+ 
 @ cat_bkpset_more_detail <DB Name> <specific backup session key> null <file#>
+ 
 
