@@ -134,8 +134,8 @@ its shows what is in the specific backup piece
 also, use it to find the piece that has specific datafile by its file#.
 
 Usage:
-@ cbsdf <DB Name> <specific backup session key> <piece name> 9
-@ cbsdf <DB Name> <specific backup session key> <piece name> null
-@ cbsdf <DB Name> <specific backup session key> null null 
-@ cbsdf <DB Name> <specific backup session key> null 9
+@ cat_bkpset_more_detail <DB Name> <specific backup session key> <piece name> <file#>
+@ cat_bkpset_more_detail <DB Name> <specific backup session key> <piece name> null
+@ cat_bkpset_more_detail <DB Name> <specific backup session key> null null 
+@ cat_bkpset_more_detail <DB Name> <specific backup session key> null <file#>
 
