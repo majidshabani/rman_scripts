@@ -20,7 +20,7 @@ cat_db_detail.sql <DB Name>
 
 Usage:
  
-cat_bkp_detail.sql <DB Name> <How long duration>
+cat_bkp_detail.sql <DB Name> <how long time in day>
 
 
 3.  cat_list_ctl_bkps.sql
@@ -33,7 +33,7 @@ Usage:
  
 cat_list_ctl_bkps.sql <DB Name> <specific backup session key> null
 OR
-cat_list_ctl_bkps.sql <DB Name> null <How long duration> 
+cat_list_ctl_bkps.sql <DB Name> null <how long time in day> 
 
 
 4.  cat_list_spfile_bkps.sql
@@ -58,7 +58,7 @@ Usage:
  
 cat_list_ctl_bkps.sql <DB Name> <specific backup session key> null
 OR
-cat_list_ctl_bkps.sql <DB Name> null <piece name>
+cat_list_ctl_bkps.sql <DB Name> null <how long time in day>
 
 
 
